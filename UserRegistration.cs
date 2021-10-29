@@ -78,7 +78,7 @@ namespace DAY_19_UserRegistration
             if (Regex.IsMatch(password, Regex_Password) == false)
             {
                 Console.WriteLine("Enter valid password. It should contain minimum 8 character," +
-                    "atleast one upper case character and atleast one numeric value"); 
+                    "atleast one upper case character"); 
             }
         }
 
